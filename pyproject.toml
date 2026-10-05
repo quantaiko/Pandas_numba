@@ -32,7 +32,8 @@ dependencies = [
 test = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/quantaiko/Pandas_numba"
+Homepage = "https://www.quantaiko.com/applications/pandas_numba/"
+Documentation = "https://www.quantaiko.com/applications/pandas_numba/"
 Repository = "https://github.com/quantaiko/Pandas_numba"
 Issues = "https://github.com/quantaiko/Pandas_numba/issues"
 
