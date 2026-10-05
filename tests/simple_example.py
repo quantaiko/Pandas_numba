@@ -1,3 +1,12 @@
+# Homepage:   https://www.quantaiko.com/applications/pandas_numba/
+# Repository: https://github.com/quantaiko/Pandas_numba
+# PyPI:       https://pypi.org/project/pandas-numba/
+# [MIT](LICENSE) © 2026 Damien Loison
+
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "code"))  # code/ on path (module is there)
+
 import pandas as pd
 from numba import njit
 from pandas_numba import f_df_to_nb, f_nb_to_np

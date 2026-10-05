@@ -1,3 +1,8 @@
+# Homepage:   https://www.quantaiko.com/applications/pandas_numba/
+# Repository: https://github.com/quantaiko/Pandas_numba
+# PyPI:       https://pypi.org/project/pandas-numba/
+# [MIT](LICENSE) © 2026 Damien Loison
+#
 # pandas_numba.py
 #
 # A numba jitclass "Pandas_nb" mimicking part of python pandas.
@@ -36,7 +41,7 @@
 # by f_df_to_nb -- only numeric and char survive the round-trip.
 #
 # Convention: all changes must be tested. The official suite is the pytest file
-# pandas_numba_tests.py (python -m pytest code/pandas_numba_tests.py) --
+# pandas_numba_tests.py (python -m pytest tests/pandas_numba_tests.py) --
 # add a column type by adding one row to its ALL_TYPES table.
 
 """Pandas-style typed columns usable inside numba ``@njit`` nopython code.
