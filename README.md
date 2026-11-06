@@ -1,3 +1,7 @@
+> ⚠️ **This repository has moved to https://github.com/loisondamien/pandas_numba**
+> — please update your remotes and bookmarks. Development continues there; this
+> copy is kept only as a pointer.
+
 # pandas_numba
 
 A tiny numba `jitclass` holding pandas-style typed columns for use inside `@njit`
